@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .saif {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            z-index: 2;
+        }
+
+        .img {
+
+            position: absolute;
+            left: 40px;
+            top: 10px;
+            z-index: 2;
+
+        }
+        body{
+            background-image: url(Home_Page_img.jpg);
+            /* filter: opacity(0.2); */
+            position: absolute;
+            z-index: -2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="saif">
+        <video src="video_saif.mp4" width="300" controls loop muted></video>
+    </div>
+    <div class="img">
+        <img class="badi tv" src="device-pile-in.png" alt="img">
+    </div>
+</body>
+
+</html>
